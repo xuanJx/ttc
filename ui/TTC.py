@@ -89,84 +89,84 @@ class TTC_wi(QWidget, Ui_Form):
 
     def Main(self, b):
 
-        for i in range(10):
-            list = b[i]
-            self.time_one.setText(list[0])
-            self.name_one.setText(list[1])
-            self.place_one.setText(list[2])
-            self.single_one.setText(list[3])
-            self.total_one.setText(list[4])
+        # for i in range(10):
+        #     list = b[i]
+        #     self.time_one.setText(list[0])
+        #     self.name_one.setText(list[1])
+        #     self.place_one.setText(list[2])
+        #     self.single_one.setText(list[3])
+        #     self.total_one.setText(list[4])
 
-        # list1 = b[0]
-        # list2 = b[1]
-        # list3 = b[2]
-        # list4 = b[3]
-        # list5 = b[4]
-        # list6 = b[5]
-        # list7 = b[6]
-        # list8 = b[7]
-        # list9 = b[8]
-        # list10 = b[9]
-        #
-        # self.time_one.setText(self.list1[0])
-        # self.name_one.setText(self.list1[1])
-        # self.place_one.setText(self.list1[2])
-        # self.single_one.setText(self.list1[3])
-        # self.total_one.setText(self.list1[4])
-        #
-        # self.time_two.setText(self.list2[0])
-        # self.name_two.setText(self.list2[1])
-        # self.place_two.setText(self.list2[2])
-        # self.single_two.setText(self.list2[3])
-        # self.total_two.setText(self.list2[4])
-        #
-        # self.time_three.setText(self.list3[0])
-        # self.name_three.setText(self.list3[1])
-        # self.place_three.setText(self.list3[2])
-        # self.single_three.setText(self.list3[3])
-        # self.total_three.setText(self.list3[4])
-        #
-        # self.time_four.setText(self.list4[0])
-        # self.name_four.setText(self.list4[1])
-        # self.place_four.setText(self.list4[2])
-        # self.single_four.setText(self.list4[3])
-        # self.total_four.setText(self.list4[4])
-        #
-        # self.time_five.setText(self.list5[0])
-        # self.name_five.setText(self.list5[1])
-        # self.place_five.setText(self.list5[2])
-        # self.single_five.setText(self.list5[3])
-        # self.total_five.setText(self.list5[4])
-        #
-        # self.time_six.setText(self.list6[0])
-        # self.name_six.setText(self.list6[1])
-        # self.place_six.setText(self.list6[2])
-        # self.single_six.setText(self.list6[3])
-        # self.total_six.setText(self.list6[4])
-        #
-        # self.time_seven.setText(self.list7[0])
-        # self.name_seven.setText(self.list7[1])
-        # self.place_seven.setText(self.list7[2])
-        # self.single_seven.setText(self.list7[3])
-        # self.total_seven.setText(self.list7[4])
-        #
-        # self.time_eight.setText(self.list8[0])
-        # self.name_eight.setText(self.list8[1])
-        # self.place_eight.setText(self.list8[2])
-        # self.single_eight.setText(self.list8[3])
-        # self.total_eight.setText(self.list8[4])
-        #
-        # self.time_nine.setText(self.list9[0])
-        # self.name_nine.setText(self.list9[1])
-        # self.place_nine.setText(self.list9[2])
-        # self.single_nine.setText(self.list9[3])
-        # self.total_nine.setText(self.list9[4])
-        #
-        # self.time_ten.setText(self.list10[0])
-        # self.name_ten.setText(self.list10[1])
-        # self.place_ten.setText(self.list10[2])
-        # self.single_ten.setText(self.list10[3])
-        # self.total_ten.setText(self.list10[4])
+        list1 = b[0]
+        list2 = b[1]
+        list3 = b[2]
+        list4 = b[3]
+        list5 = b[4]
+        list6 = b[5]
+        list7 = b[6]
+        list8 = b[7]
+        list9 = b[8]
+        list10 = b[9]
+
+        self.time_one.setText(self.list1[0])
+        self.name_one.setText(self.list1[1])
+        self.place_one.setText(self.list1[2])
+        self.single_one.setText(self.list1[3])
+        self.total_one.setText(self.list1[4])
+
+        self.time_two.setText(self.list2[0])
+        self.name_two.setText(self.list2[1])
+        self.place_two.setText(self.list2[2])
+        self.single_two.setText(self.list2[3])
+        self.total_two.setText(self.list2[4])
+
+        self.time_three.setText(self.list3[0])
+        self.name_three.setText(self.list3[1])
+        self.place_three.setText(self.list3[2])
+        self.single_three.setText(self.list3[3])
+        self.total_three.setText(self.list3[4])
+
+        self.time_four.setText(self.list4[0])
+        self.name_four.setText(self.list4[1])
+        self.place_four.setText(self.list4[2])
+        self.single_four.setText(self.list4[3])
+        self.total_four.setText(self.list4[4])
+
+        self.time_five.setText(self.list5[0])
+        self.name_five.setText(self.list5[1])
+        self.place_five.setText(self.list5[2])
+        self.single_five.setText(self.list5[3])
+        self.total_five.setText(self.list5[4])
+
+        self.time_six.setText(self.list6[0])
+        self.name_six.setText(self.list6[1])
+        self.place_six.setText(self.list6[2])
+        self.single_six.setText(self.list6[3])
+        self.total_six.setText(self.list6[4])
+
+        self.time_seven.setText(self.list7[0])
+        self.name_seven.setText(self.list7[1])
+        self.place_seven.setText(self.list7[2])
+        self.single_seven.setText(self.list7[3])
+        self.total_seven.setText(self.list7[4])
+
+        self.time_eight.setText(self.list8[0])
+        self.name_eight.setText(self.list8[1])
+        self.place_eight.setText(self.list8[2])
+        self.single_eight.setText(self.list8[3])
+        self.total_eight.setText(self.list8[4])
+
+        self.time_nine.setText(self.list9[0])
+        self.name_nine.setText(self.list9[1])
+        self.place_nine.setText(self.list9[2])
+        self.single_nine.setText(self.list9[3])
+        self.total_nine.setText(self.list9[4])
+
+        self.time_ten.setText(self.list10[0])
+        self.name_ten.setText(self.list10[1])
+        self.place_ten.setText(self.list10[2])
+        self.single_ten.setText(self.list10[3])
+        self.total_ten.setText(self.list10[4])
 
         self.pushButton.setDisabled(False)
 
